@@ -1,0 +1,177 @@
+<div class="content">
+    <div class="leaderboard">
+
+<div class="ad-label">Advertisements</div>
+
+<div class="ad-container">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsive Leaderboard -->
+<ins class="adsbygoogle" style="display:block;max-width:728px;width:100%;height:90px" data-ad-client="ca-pub-9107540490929984" data-ad-slot="4302666817"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<!-- ABR Leaderboard -->
+<div id="bsa-zone_1579648332258-0_123456" class="bsa-zone_acceptable" data-delegated-acceptable-ad="" style="width: 728px;"><iframe width="728" height="90" frameborder="0" scrolling="no" src="https://acceptable.buysellads.net/acceptable.html?acceptable_ad_iframe=&amp;original_parent_viewport_size=1366x669&amp;account=tutorialrepublic&amp;adunit=bsa-zone_1579648332258-0_123456&amp;consent_management=false"></iframe></div>
+
+</div>                <!-- InstanceBeginEditable name="main_content" -->
+    <a href="html-character-entities.php" class="previous-page" title="Go to Previous Page"></a>
+    <a href="html-color-picker.php" class="next-page" title="Go to Next Page"></a>
+    <h1>HTTP <span>Status</span> Codes</h1>
+    <p class="summary">HTTP status codes are standard response codes returns by the web server in response to the request made to them.</p>
+    <h2>HTTP Status Code</h2>
+    <p>The status code provides information about the status of the request. It also helps to identify the cause of the problem when a web page or other resource does not load properly.</p>
+    <p>Some common status codes are:</p>
+    <ul>
+        <li><strong>200</strong> - the server successfully returned the page</li>
+        <li><strong>404</strong> - the requested page doesn't exist</li>
+        <li><strong>503</strong> - the server is temporarily unavailable</li>
+    </ul>
+    <p class="space">The following section lists the HTTP status codes that might be returned along with a description.</p>
+    <h2>1xx Informational</h2>
+    <dl>
+        <dt>100 Continue</dt>
+        <dd>This means the client should continue with its request. The server returns this response code to inform the client that the initial part of the request has been received and has not yet been rejected by the server.</dd>
+        <dt>101 Switching Protocols</dt>
+        <dd>This means the requester has asked the server to switch protocols and the server is acknowledging that it will do so.</dd>
+    </dl>
+    <hr>
+    <h2>2xx Successful</h2>
+    <dl>
+        <dt>200 OK</dt>
+        <dd>The server successfully processed the request. Generally, this means that the server provided the requested page.</dd>
+        <dt>201 Created</dt>
+        <dd>This means the request was successful and the server created a new resource.</dd>
+        <dt>202 Accepted</dt>
+        <dd>This means the server has accepted the request for processing, but the processing has not been completed.</dd>
+        <dt>203 Non-Authoritative Information</dt>
+        <dd>This means the server successfully processed the request, but is returning information that may be from another source.</dd>
+        <dt>204 No Content</dt>
+        <dd>This means the server successfully processed the request, but isn't returning any content.</dd>
+        <dt>204 No Content</dt>
+        <dd>This means the server successfully processed the request, but isn't returning any content.</dd>
+        <dt>205 Reset Content</dt>
+        <dd>This means the server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view.</dd>
+        <dt>206 Partial Content</dt>
+        <dd>The server is delivering only part of the resource due to a range header sent by the client.</dd>
+    </dl>
+    <hr>
+    <h2>3xx Redirection</h2>
+    <dl>
+        <dt>300 Multiple Choices</dt>
+        <dd>Indicates multiple options for the resource that the client may follow. It, for instance, could be used to present different format options for video or list files with different extensions.</dd>
+        <dt>301 Moved Permanently</dt>
+        <dd>The requested page has been permanently moved to a new location. When the server returns this response, it automatically forwards the requester to the new location.</dd>
+        <dt>302 Found</dt>
+        <dd>This means the requested resource resides temporarily under a different location, but the requester should continue to use the original location for future requests.</dd>
+        <dt>303 See Other</dt>
+        <dd>This means the response to the request can be found under a different location using a GET method.</dd>
+        <dt>304 Not Modified</dt>
+        <dd>Indicates the requested resource hasn't been modified since the last request.</dd>
+        <dt>305 Use Proxy</dt>
+        <dd>This means the requester can only access the requested resource using a proxy. Many HTTP clients (such as Mozilla and Internet Explorer) do not correctly handle responses with this status code, primarily for security reasons.</dd>
+        <dt>306 Switch Proxy</dt>
+        <dd><em>No longer used.</em></dd>
+        <dt>307 Temporary Redirect</dt>
+        <dd>This means the requested resource resides temporarily under a different location, but the requester should continue to use the original location for future requests. In contrast to 302, the request method should not be changed when reissuing the original request. For instance, a POST request must be repeated using another POST request.</dd>
+        <dt>308 Permanent Redirect (experimental)</dt>
+        <dd>This means the request, and all future requests should be repeated using another URL. 307 and 308 (as proposed) parallel the behaviours of 302 and 301, but do not allow the HTTP method to change.</dd>
+    </dl>
+    <hr>
+    <h2>4xx Client Error</h2>
+    <dl>
+        <dt>400 Bad Request</dt>
+        <dd>This means the request cannot be fulfilled due to bad syntax.</dd>
+        <dt>401 Unauthorized</dt>
+        <dd>The request requires user authentication. The server might return this response for a page behind a login.</dd>
+        <dt>402 Payment Required</dt>
+        <dd>This code is reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened.</dd>
+        <dt>403 Forbidden</dt>
+        <dd>The request was a valid request, but the server is refusing to respond to it. Unlike a 401 Unauthorized response, authenticating will make no difference.</dd>
+        <dt>404 Not Found</dt>
+        <dd>This means the server can't find the requested page. For instance, the server often returns this code if the request is for a page that doesn't exist on the server.</dd>
+        <dt>405 Method Not Allowed</dt>
+        <dd>This means the method specified in the request is not allowed. For example, using GET on a form which requires data to be presented via POST.</dd>
+        <dt>406 Not Acceptable</dt>
+        <dd>This means the requested resource can't respond with the content characteristics requested.</dd>
+        <dt>407 Proxy Authentication Required</dt>
+        <dd>This code is similar to 401 (Unauthorized), but indicates that the client must first authenticate itself with the proxy.</dd>
+        <dt>408 Request Timeout</dt>
+        <dd>The server timed out waiting for the request. This means the client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.</dd>
+        <dt>409 Conflict</dt>
+        <dd>This means the request could not be completed due to a conflict with the current state of the resource.</dd>
+        <dt>410 Gone</dt>
+        <dd>Indicates that the resource requested is no longer available at the server and will not be available again.</dd>
+        <dt>411 Length Required</dt>
+        <dd>This means the server refuses to accept the request without a defined Content-Length.</dd>
+        <dt>412 Precondition Failed</dt>
+        <dd>This means the server does not meet one of the preconditions that the requester put on the request.</dd>
+        <dt>413 Request Entity Too Large</dt>
+        <dd>This means the server is refusing to process a request because it is larger than the server is willing or able to process.</dd>
+        <dt>414 Request-URI Too Long</dt>
+        <dd>This means the server is refusing to process the request because the Request-URI (typically, a URL) is longer than the server is willing to interpret.</dd>
+        <dt>413 Request Entity Too Large</dt>
+        <dd>This means the server is refusing to process a request because it is larger than the server is willing or able to process.</dd>
+        <dt>413 Request Entity Too Large</dt>
+        <dd>This means the server is refusing to process a request because it is larger than the server is willing or able to process.</dd>
+        <dt>415 Unsupported Media Type</dt>
+        <dd>The server is refusing to process the request because the entity of the request is in a format which is not supported by the server or requested resource.</dd>
+        <dt>416 Requested Range Not Satisfiable</dt>
+        <dd>The server returns this status code if the request is for a range not available for the selected resource.</dd>
+        <dt>417 Expectation Failed</dt>
+        <dd>This means the server cannot meet the requirements of the Expect request-header field.</dd>
+    </dl>
+    <hr>
+    <h2>5xx Server Error</h2>
+    <dl>
+        <dt>500 Internal Server Error</dt>
+        <dd>This means the server encountered an unexpected condition which prevented it from processing the request.</dd>
+        <dt>501 Not Implemented</dt>
+        <dd>This means the server either does not recognize the request method, or it lacks the ability to handle the request.</dd>
+        <dt>502 Bad Gateway</dt>
+        <dd>This means the server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request.</dd>
+
+        <dt>503 Service Unavailable</dt>
+        <dd>This means the server is currently unable to handle the request because it is overloaded or down for maintenance. Generally, this is a temporary state.</dd>
+        <dt>504 Gateway Timeout</dt>
+        <dd>This means the server, while acting as a gateway or proxy, did not receive a timely response from the upstream server.</dd>
+        <dt>505 HTTP Version Not Supported</dt>
+        <dd>This means the server does not support, or refuses to support, the HTTP protocol version used in the request.</dd>
+    </dl>
+    <!--Bottom Navigation-->
+    <div class="bottom-link clearfix">
+        <a href="html-character-entities.php" class="previous-page-bottom">Previous Page</a>
+        <a href="html-color-picker.php" class="next-page-bottom">Next Page</a>
+    </div>
+    <!--End:Bottom Navigation-->
+    <!-- InstanceEndEditable -->
+    <div class="bottom-ad clearfix">
+
+<div class="ad-label">Advertisements</div>
+
+<!--Rectangle Left-->
+<div class="rectangle-left fl">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Large Rectangle Left -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9107540490929984" data-ad-slot="8162953958"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!--End:Rectangle Left-->
+
+<!--Rectangle Right-->
+<div class="rectangle-right fr">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Large Rectangle Right -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-9107540490929984" data-ad-slot="3324015654"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<!--End:Rectangle Right-->
+
+</div>
+
+</div>
