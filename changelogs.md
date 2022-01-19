@@ -4,6 +4,9 @@
 
 ```
 index.html
+todo.html
+css/style.css
+js/main.js
 ```
 
 ## files changed
