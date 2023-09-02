@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(0deg, #fff 0%, #fff 50%, #000 50%, #000 100%),
+        repeating-linear-gradient(90deg, #fff 0%, #fff 50%, #000 50%, #000 100%);
+    background-size: 30px 30px;
+    background-blend-mode: difference;
+    overflow: hidden;
+}
+
+span {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url(masi.jpeg);
+    background-size: auto 100vh;
+    background-attachment: fixed;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}

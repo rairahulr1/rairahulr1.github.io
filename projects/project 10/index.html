@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utg-8">
+        <title>Background Change | Vanilla Javascript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="tshirt.jpeg" >
+        <div id="bg"></div>
+        <script type="text/javascript">
+        // const bg= document.getElementById('bg');
+        const bg=document.querySelector("#bg");
+        function randomColor(){
+            return Math.floor(Math.random() * 255)
+        }
+        bg.addEventListener('click', () => {
+            bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+')'  
+        })
+        </script>
+    </body>
+</html>
