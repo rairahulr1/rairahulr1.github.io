@@ -1,0 +1,13 @@
+{
+  "name": "Rahul",
+  "title": "Senior Backend Engineer",
+  "bio": "Building SaaS, APIs & AI-powered products with Laravel, PHP, Python and cloud tooling.",
+  "tech_stack": ["Laravel", "PHP", "Python", "AWS", "Docker", "MySQL", "Redis", "Git"],
+  "current_focus": "AI-powered products & cloud tooling",
+  "featured_projects": [],
+  "contact": {
+    "email": "",
+    "github": "rairahulr1",
+    "linkedin": ""
+  }
+}
