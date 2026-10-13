@@ -28,7 +28,7 @@ Zero-downtime migrations, performance & security hardening, and AI-augmented del
 ## Contact
 
 - [GitHub](https://github.com/rairahulr1)
-- [Email](mailto:hello@webdecaffe.com)
+- [Email](mailto:rahul@rairahulr1.com)
 - [LinkedIn](https://linkedin.com/in/rairahulr1)
 
 Generated from `data/profile.json`
