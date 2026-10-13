@@ -1,13 +1,14 @@
 {
-  "name": "Rahul",
-  "title": "Senior Backend Engineer",
-  "bio": "Building SaaS, APIs & AI-powered products with Laravel, PHP, Python and cloud tooling.",
-  "tech_stack": ["Laravel", "PHP", "Python", "AWS", "Docker", "MySQL", "Redis", "Git"],
-  "current_focus": "AI-powered products & cloud tooling",
+  "name": "Rahul Rai",
+  "title": "Backend Engineer · 7+ yrs Production PHP/Laravel",
+  "bio": "Backend engineer, 7+ years in production PHP and Laravel across fintech and B2B SaaS — previously Project Lead. I build systems that stay up when the sale is live: zero-downtime schema migrations, performance tuning, and maintenance for WordPress/Laravel businesses. Remote from Mumbai.",
+  "tech_stack": ["PHP 8", "Laravel", "CodeIgniter", "WordPress", "MySQL / MariaDB", "Redis", "Vue", "Tailwind", "Livewire", "Docker", "Nginx", "AWS", "System Design"],
+  "current_focus": "Zero-downtime migrations, performance & security hardening, and AI-augmented delivery — LLM-assisted design review and automation on my existing stack.",
   "featured_projects": [],
   "contact": {
-    "email": "",
+    "website": "https://rairahulr1.com",
     "github": "rairahulr1",
-    "linkedin": ""
+    "email": "hello@webdecaffe.com",
+    "linkedin": "rairahulr1"
   }
 }
